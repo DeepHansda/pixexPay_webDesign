@@ -1,0 +1,7 @@
+@keyframes rightSlide {
+    0% { 
+        transform:scale(50%)
+    }
+    100% { transform:scale(100%)
+    }
+}

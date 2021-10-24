@@ -1,0 +1,59 @@
+@import url(style.css);
+
+@media only screen and (max-width:320px){
+    .content .content-container div h1{
+        font-size:14px;
+    }
+    
+}
+
+@media only screen and (min-width:1280px) {
+    body{
+        width:810px;
+        margin: auto;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .bar .nav li a{
+        transition: all  0.5s;
+        padding:5px 10px;
+    }
+    .bar .nav li a:hover{
+        border-bottom: 3px solid var(--melon);
+        color:brown;
+        padding:5px 25px;
+
+    }
+
+    .follow .social a i{
+        transition: all ease 1s
+    }
+    .follow .social a i:hover{
+        font-size:24px;
+        color:brown;
+    }
+    .fas{
+        transition: all  0.3s;
+    }
+    .uniPay-main .uniPay-container .icon-container a:hover .fas{
+        color: var(--melon);
+        transform:rotate(15deg);
+        font-size:25px;
+        
+    }
+
+.content-container div ul li a{ 
+    transition: all linear 0.2s;
+}
+
+.content-container div ul li a:hover{ 
+    color:var(--melon)
+}
+
+footer h1{
+    transition: all 0.3s;
+}
+footer h1:hover{
+    font-size: 30px;
+}
+}
